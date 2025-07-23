@@ -1,0 +1,70 @@
+#main-banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 30px;
+    background: #1f1f21;
+    gap: 40px;
+    height: 95vh;
+  }
+  
+  .main-content {
+    flex: 1 1 500px;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .main-content h1 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .main-content p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #cccccc;
+    margin-bottom: 30px;
+  }
+  
+  .contact-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #00bfff;
+    color: #0f0f1c;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 6px;
+    box-shadow: 0 4px 14px rgba(0, 191, 255, 0.4);
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-btn:hover {
+    background-color: #009acd;
+    color: #ffffff;
+  }
+  
+  .profile-img {
+    flex: 1 1 300px;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    user-select: none;
+  }
+  
+  .profile-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 191, 255, 0.2);
+    user-select: none;
+    pointer-events: none;
+  }
+  
+  #main-banner *:focus {
+    outline: none;
+    caret-color: transparent;
+  }
+  
